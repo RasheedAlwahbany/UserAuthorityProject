@@ -26,16 +26,14 @@ namespace UserAuthorityProject
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var connectionString = Configuration.GetConnectionString("UserAuthDBContextConnection") ?? throw new InvalidOperationException("Connection string 'AuthDbContextConnection' not found.");
+            //var connectionString = Configuration.GetConnectionString("UserAuthDBContextConnection") ?? throw new InvalidOperationException("Connection string 'AuthDbContextConnection' not found.");
 
-            services.AddDbContext<UserAuthDBContext>(options => options.UseSqlServer(connectionString));
+            //services.AddDbContext<UserAuthDBContext>(options => options.UseSqlServer(connectionString));
 
             //services.AddDefaultIdentity<ApplicationUser>(options =>
-            //{
-            //    options.SignIn.RequireConfirmedAccount = false;
-            //})
+            //    options.SignIn.RequireConfirmedAccount = false
+            //)
             //.AddEntityFrameworkStores<UserAuthDBContext>();
-
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

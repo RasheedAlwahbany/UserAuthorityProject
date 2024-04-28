@@ -20,8 +20,11 @@ namespace UserAuthorityProject.Areas.Identity
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("UserAuthDBContextConnection")));
 
-                services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                    .AddEntityFrameworkStores<UserAuthDBContext>();
+
+                services.AddDefaultIdentity<ApplicationUser>(options =>
+                    options.SignIn.RequireConfirmedAccount = false
+                )
+                .AddEntityFrameworkStores<UserAuthDBContext>();
             });
         }
     }
