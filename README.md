@@ -34,10 +34,13 @@ npm install
 ```
 
 ### Usage
-Use this space to show useful examples of how the project can be used. Additional screenshots, code examples, and demos work well in this space. You may also link to more resources.
+1. Run the project
 
-### Roadmap
-See the open issues for a list of proposed features (and known issues).
+2. Go this link 
+```bash  /identity/account/login ``` <br/>
+```bash  /identity/account/register ```
+
+3. Engoy
 
 ### Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
