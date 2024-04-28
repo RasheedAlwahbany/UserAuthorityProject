@@ -19,16 +19,19 @@ To get a local copy up and running, follow these simple steps.
 
 This is an example of how to list things you need to use the software and how to install them.
 ```bash
-npm install npm@latest -g```
+npm install npm@latest -g 
+```
 
 ### Installation
 1. Clone the repo
-```
+```bash
 git clone https://github.com/your_username_/UserAuthorityProject.git
 ```
 
 2. Install NPM packages
-```npm install```
+```bash
+npm install 
+```
 
 ### Usage
 Use this space to show useful examples of how the project can be used. Additional screenshots, code examples, and demos work well in this space. You may also link to more resources.
