@@ -37,8 +37,8 @@ npm install
 1. Run the project
 
 2. Go this link <br/>
-```bash  /identity/account/login ``` <br/>
-```bash  /identity/account/register ```
+```  /identity/account/login ``` <br/>
+```  /identity/account/register ```
 
 3. Engoy
 
