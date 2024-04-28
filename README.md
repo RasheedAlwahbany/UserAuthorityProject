@@ -36,7 +36,7 @@ npm install
 ### Usage
 1. Run the project
 
-2. Go this link 
+2. Go this link <br/>
 ```bash  /identity/account/login ``` <br/>
 ```bash  /identity/account/register ```
 
